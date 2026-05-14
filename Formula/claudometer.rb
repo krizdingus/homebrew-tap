@@ -3,7 +3,7 @@ class Claudometer < Formula
   homepage "https://github.com/krizdingus/claudometer"
   url "https://github.com/krizdingus/claudometer.git",
       branch: "main"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
   head "https://github.com/krizdingus/claudometer.git", branch: "main"
 
