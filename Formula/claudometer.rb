@@ -8,6 +8,7 @@ class Claudometer < Formula
   head "https://github.com/krizdingus/claudometer.git", branch: "main"
 
   depends_on "go" => :build
+  depends_on "esptool"
 
   def install
     cd "daemon" do
