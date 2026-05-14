@@ -1,11 +1,11 @@
 class Claudometer < Formula
   desc "Claude usage monitor that drives a Cheap Yellow Display"
   homepage "https://github.com/krizdingus/claudometer"
-  url "https://github.com/krizdingus/cyd-claude-usage-monitor.git",
+  url "https://github.com/krizdingus/claudometer.git",
       branch: "main"
   version "0.1.0"
   license "MIT"
-  head "https://github.com/krizdingus/cyd-claude-usage-monitor.git", branch: "main"
+  head "https://github.com/krizdingus/claudometer.git", branch: "main"
 
   depends_on "go" => :build
 
